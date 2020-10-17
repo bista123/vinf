@@ -1,0 +1,53 @@
+Main_Page:
+  ID: 2
+  Znaèka: Main Page
+  Linky: http://sk.dbpedia.org/resource/Hlavná_stránka
+Hlavná_stránka:
+  ID: 1
+  Znaèka: Hlavná stránka
+  Linky: http://sk.dbpedia.org/resource/Wikipédia:O_Wikipédii http://sk.dbpedia.org/resource/Wikipédia:Príruèka http://sk.dbpedia.org/resource/Pomoc:Obsah http://sk.dbpedia.org/resource/Wikipédia:Najlepšie_èlánky http://sk.dbpedia.org/resource/Kategória:Wikiportály http://sk.dbpedia.org/resource/Kategória:Základné_kategórie http://sk.dbpedia.org/resource/Wikipédia:Rýchly_index http://sk.dbpedia.org/resource/Súbor:Bluebg.png http://sk.dbpedia.org/resource/Súbor:HSDagensdatum.svg http://sk.dbpedia.org/resource/%7B%7BCURRENTDAY%7D%7D._%7B%7BCURRENTMONTHNAME%7D%7D http://sk.dbpedia.org/resource/Súbor:HSutvald2.svg http://sk.dbpedia.org/resource/Súbor:HSVissteduatt.svg http://sk.dbpedia.org/resource/Súbor:HSBild.svg http://sk.dbpedia.org/resource/Súbor:Portal.svg http://sk.dbpedia.org/resource/Súbor:Greenbg_right.png http://sk.dbpedia.org/resource/Súbor:Vista-xmag.png http://sk.dbpedia.org/resource/Súbor:Gnome-globe.svg http://sk.dbpedia.org/resource/Súbor:Wikipedia-logo.png http://sk.dbpedia.org/resource/Súbor:Wikimedia-logo.svg http://sk.dbpedia.org/resource/Wmf:Zbieranie_príspevkov
+Isaac_Newton:
+  ID: 606
+  Znaèka: Isaac Newton
+  Kategórie: Narodenia_v_1643 Úmrtia_v_1727 Anglickí_filozofi Anglickí_fyzici Anglickí_matematici Optici Alchymisti Okultisti
+  Linky: http://sk.dbpedia.org/resource/4._január http://sk.dbpedia.org/resource/1643
+Matematika:
+  ID: 605
+  Znaèka: Matematika
+  Kategórie: Matematika
+Literatúra:
+  ID: 609
+  Znaèka: Literatúra
+  Kategórie: Literatúra
+Fyzika:
+  ID: 611
+  Znaèka: Fyzika
+  Kategórie: Fyzika
+Francúzsko:
+  ID: 608
+  Znaèka: Francúzsko
+  Kategórie: Krajiny_EÚ Èlenovia_NATO Èlenovia_OSN Štáty_v_Európe
+Esperanto:
+  ID: 603
+  Znaèka: Esperanto
+Zoznam_štátov:
+  ID: 612
+  Znaèka: Zoznam štátov
+Václav_Havel:
+  ID: 610
+  Znaèka: Václav Havel
+Trnava:
+  ID: 613
+  Znaèka: Trnava
+Hudba:
+  ID: 682
+  Znaèka: Hudba
+Taekkyon:
+  ID: 694
+  Znaèka: Taekkyon
+RTFM:
+  ID: 695
+  Znaèka: RTFM
+Science_fiction:
+  ID: 698
+  Znaèka: Science fiction

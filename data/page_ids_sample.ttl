@@ -1,0 +1,17 @@
+# started 2013-07-11T10:58:53Z
+<http://sk.dbpedia.org/resource/Main_Page> <http://dbpedia.org/ontology/wikiPageID> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Hlavná_stránka> <http://dbpedia.org/ontology/wikiPageID> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageID> "606"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Matematika> <http://dbpedia.org/ontology/wikiPageID> "605"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Literatúra> <http://dbpedia.org/ontology/wikiPageID> "609"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Fyzika> <http://dbpedia.org/ontology/wikiPageID> "611"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Francúzsko> <http://dbpedia.org/ontology/wikiPageID> "608"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Esperanto> <http://dbpedia.org/ontology/wikiPageID> "603"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Zoznam_štátov> <http://dbpedia.org/ontology/wikiPageID> "612"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Václav_Havel> <http://dbpedia.org/ontology/wikiPageID> "610"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Trnava> <http://dbpedia.org/ontology/wikiPageID> "613"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Hudba> <http://dbpedia.org/ontology/wikiPageID> "682"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Taekkyon> <http://dbpedia.org/ontology/wikiPageID> "694"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/RTFM> <http://dbpedia.org/ontology/wikiPageID> "695"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://sk.dbpedia.org/resource/Science_fiction> <http://dbpedia.org/ontology/wikiPageID> "698"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# completed 2013-07-11T11:07:28Z

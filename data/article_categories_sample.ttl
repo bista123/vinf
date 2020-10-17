@@ -1,0 +1,17 @@
+# started 2013-07-11T10:58:53Z
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Narodenia_v_1643> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Úmrtia_v_1727> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Anglickí_filozofi> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Anglickí_fyzici> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Anglickí_matematici> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Optici> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Alchymisti> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Okultisti> .
+<http://sk.dbpedia.org/resource/Matematika> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Matematika> .
+<http://sk.dbpedia.org/resource/Literatúra> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Literatúra> .
+<http://sk.dbpedia.org/resource/Fyzika> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Fyzika> .
+<http://sk.dbpedia.org/resource/Francúzsko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Krajiny_EÚ> .
+<http://sk.dbpedia.org/resource/Francúzsko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Členovia_NATO> .
+<http://sk.dbpedia.org/resource/Francúzsko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Členovia_OSN> .
+<http://sk.dbpedia.org/resource/Francúzsko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Štáty_v_Európe> .
+# completed 2013-07-11T11:07:28Z
