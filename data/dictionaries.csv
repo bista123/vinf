@@ -1,53 +1,53 @@
 Main_Page:
   ID: 2
-  Znaèka: Main Page
-  Linky: http://sk.dbpedia.org/resource/Hlavná_stránka
-Hlavná_stránka:
+  ZnaÄka: Main Page
+  Linky: http://sk.dbpedia.org/resource/HlavnÃ¡_strÃ¡nka
+HlavnÃ¡_strÃ¡nka:
   ID: 1
-  Znaèka: Hlavná stránka
-  Linky: http://sk.dbpedia.org/resource/Wikipédia:O_Wikipédii http://sk.dbpedia.org/resource/Wikipédia:Príruèka http://sk.dbpedia.org/resource/Pomoc:Obsah http://sk.dbpedia.org/resource/Wikipédia:Najlepšie_èlánky http://sk.dbpedia.org/resource/Kategória:Wikiportály http://sk.dbpedia.org/resource/Kategória:Základné_kategórie http://sk.dbpedia.org/resource/Wikipédia:Rıchly_index http://sk.dbpedia.org/resource/Súbor:Bluebg.png http://sk.dbpedia.org/resource/Súbor:HSDagensdatum.svg http://sk.dbpedia.org/resource/%7B%7BCURRENTDAY%7D%7D._%7B%7BCURRENTMONTHNAME%7D%7D http://sk.dbpedia.org/resource/Súbor:HSutvald2.svg http://sk.dbpedia.org/resource/Súbor:HSVissteduatt.svg http://sk.dbpedia.org/resource/Súbor:HSBild.svg http://sk.dbpedia.org/resource/Súbor:Portal.svg http://sk.dbpedia.org/resource/Súbor:Greenbg_right.png http://sk.dbpedia.org/resource/Súbor:Vista-xmag.png http://sk.dbpedia.org/resource/Súbor:Gnome-globe.svg http://sk.dbpedia.org/resource/Súbor:Wikipedia-logo.png http://sk.dbpedia.org/resource/Súbor:Wikimedia-logo.svg http://sk.dbpedia.org/resource/Wmf:Zbieranie_príspevkov
+  ZnaÄka: HlavnÃ¡ strÃ¡nka
+  Linky: http://sk.dbpedia.org/resource/WikipÃ©dia:O_WikipÃ©dii http://sk.dbpedia.org/resource/WikipÃ©dia:PrÃ­ruÄka http://sk.dbpedia.org/resource/Pomoc:Obsah http://sk.dbpedia.org/resource/WikipÃ©dia:NajlepÅ¡ie_ÄlÃ¡nky http://sk.dbpedia.org/resource/KategÃ³ria:WikiportÃ¡ly http://sk.dbpedia.org/resource/KategÃ³ria:ZÃ¡kladnÃ©_kategÃ³rie http://sk.dbpedia.org/resource/WikipÃ©dia:RÃ½chly_index http://sk.dbpedia.org/resource/SÃºbor:Bluebg.png http://sk.dbpedia.org/resource/SÃºbor:HSDagensdatum.svg http://sk.dbpedia.org/resource/%7B%7BCURRENTDAY%7D%7D._%7B%7BCURRENTMONTHNAME%7D%7D http://sk.dbpedia.org/resource/SÃºbor:HSutvald2.svg http://sk.dbpedia.org/resource/SÃºbor:HSVissteduatt.svg http://sk.dbpedia.org/resource/SÃºbor:HSBild.svg http://sk.dbpedia.org/resource/SÃºbor:Portal.svg http://sk.dbpedia.org/resource/SÃºbor:Greenbg_right.png http://sk.dbpedia.org/resource/SÃºbor:Vista-xmag.png http://sk.dbpedia.org/resource/SÃºbor:Gnome-globe.svg http://sk.dbpedia.org/resource/SÃºbor:Wikipedia-logo.png http://sk.dbpedia.org/resource/SÃºbor:Wikimedia-logo.svg http://sk.dbpedia.org/resource/Wmf:Zbieranie_prÃ­spevkov
 Isaac_Newton:
   ID: 606
-  Znaèka: Isaac Newton
-  Kategórie: Narodenia_v_1643 Úmrtia_v_1727 Anglickí_filozofi Anglickí_fyzici Anglickí_matematici Optici Alchymisti Okultisti
-  Linky: http://sk.dbpedia.org/resource/4._január http://sk.dbpedia.org/resource/1643
+  ZnaÄka: Isaac Newton
+  KategÃ³rie: Narodenia_v_1643 Ãšmrtia_v_1727 AnglickÃ­_filozofi AnglickÃ­_fyzici AnglickÃ­_matematici Optici Alchymisti Okultisti
+  Linky: http://sk.dbpedia.org/resource/4._januÃ¡r http://sk.dbpedia.org/resource/1643
 Matematika:
   ID: 605
-  Znaèka: Matematika
-  Kategórie: Matematika
-Literatúra:
+  ZnaÄka: Matematika
+  KategÃ³rie: Matematika
+LiteratÃºra:
   ID: 609
-  Znaèka: Literatúra
-  Kategórie: Literatúra
+  ZnaÄka: LiteratÃºra
+  KategÃ³rie: LiteratÃºra
 Fyzika:
   ID: 611
-  Znaèka: Fyzika
-  Kategórie: Fyzika
-Francúzsko:
+  ZnaÄka: Fyzika
+  KategÃ³rie: Fyzika
+FrancÃºzsko:
   ID: 608
-  Znaèka: Francúzsko
-  Kategórie: Krajiny_EÚ Èlenovia_NATO Èlenovia_OSN Štáty_v_Európe
+  ZnaÄka: FrancÃºzsko
+  KategÃ³rie: Krajiny_EÃš ÄŒlenovia_NATO ÄŒlenovia_OSN Å tÃ¡ty_v_EurÃ³pe
 Esperanto:
   ID: 603
-  Znaèka: Esperanto
-Zoznam_štátov:
+  ZnaÄka: Esperanto
+Zoznam_Å¡tÃ¡tov:
   ID: 612
-  Znaèka: Zoznam štátov
-Václav_Havel:
+  ZnaÄka: Zoznam Å¡tÃ¡tov
+VÃ¡clav_Havel:
   ID: 610
-  Znaèka: Václav Havel
+  ZnaÄka: VÃ¡clav Havel
 Trnava:
   ID: 613
-  Znaèka: Trnava
+  ZnaÄka: Trnava
 Hudba:
   ID: 682
-  Znaèka: Hudba
+  ZnaÄka: Hudba
 Taekkyon:
   ID: 694
-  Znaèka: Taekkyon
+  ZnaÄka: Taekkyon
 RTFM:
   ID: 695
-  Znaèka: RTFM
+  ZnaÄka: RTFM
 Science_fiction:
   ID: 698
-  Znaèka: Science fiction
+  ZnaÄka: Science fiction
