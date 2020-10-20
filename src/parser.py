@@ -2,11 +2,11 @@ import re
 import codecs
 
 
+# Function to parse page ids
 def parse_ids():
 
     ttl_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_ids_sample.ttl', 'r', encoding='utf-8')
     csv_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_ids.csv', 'w', encoding='utf-8')
-
     lines = ttl_file.readlines()
 
     for line in lines:
@@ -21,11 +21,11 @@ def parse_ids():
     csv_file.close()
 
 
+# Function to parse labels
 def parse_labels():
 
     ttl_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/labels_sample.ttl', 'r', encoding='utf-8')
     csv_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/labels.csv', 'w', encoding='utf-8')
-
     lines = ttl_file.readlines()
 
     for line in lines:
@@ -40,12 +40,12 @@ def parse_labels():
     csv_file.close()
 
 
+# Function to parse article categories
 def parse_categories():
 
     ttl_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/article_categories_sample.ttl',
                            'r',
                            encoding='utf-8')
-
     lines = ttl_file.readlines()
     categories = {}
 
@@ -74,12 +74,12 @@ def parse_categories():
     csv_file.close()
 
 
+# Function to parse page links
 def parse_links():
 
     ttl_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_links_sample.ttl',
                            'r',
                            encoding='utf-8')
-
     lines = ttl_file.readlines()
     links = {}
 
@@ -106,6 +106,7 @@ def parse_links():
     csv_file.close()
 
 
+# Function to parse and merge together all previously created temporary csv files
 def merge_together():
 
     files = ['page_ids.csv', 'labels.csv', 'article_categories.csv', 'page_links.csv']
@@ -156,5 +157,5 @@ if __name__ == '__main__':
 
     merge_together()
 
-    print("Parsing_done")
+    print("Parsing done!")
 
