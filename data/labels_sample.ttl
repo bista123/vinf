@@ -14,4 +14,27 @@
 <http://sk.dbpedia.org/resource/Taekkyon> <http://www.w3.org/2000/01/rdf-schema#label> "Taekkyon"@sk .
 <http://sk.dbpedia.org/resource/RTFM> <http://www.w3.org/2000/01/rdf-schema#label> "RTFM"@sk .
 <http://sk.dbpedia.org/resource/Science_fiction> <http://www.w3.org/2000/01/rdf-schema#label> "Science fiction"@sk .
+<http://sk.dbpedia.org/resource/Maďarsko> <http://www.w3.org/2000/01/rdf-schema#label> "Maďarsko"@sk .
+<http://sk.dbpedia.org/resource/Československá_socialistická_republika> <http://www.w3.org/2000/01/rdf-schema#label> "Československá socialistická republika"@sk .
+<http://sk.dbpedia.org/resource/Nemecko> <http://www.w3.org/2000/01/rdf-schema#label> "Nemecko"@sk .
+<http://sk.dbpedia.org/resource/Slovensko> <http://www.w3.org/2000/01/rdf-schema#label> "Slovensko"@sk .
+<http://sk.dbpedia.org/resource/Astronómia> <http://www.w3.org/2000/01/rdf-schema#label> "Astronómia"@sk .
+<http://sk.dbpedia.org/resource/Blog> <http://www.w3.org/2000/01/rdf-schema#label> "Blog"@sk .
+<http://sk.dbpedia.org/resource/Česko> <http://www.w3.org/2000/01/rdf-schema#label> "Česko"@sk .
+<http://sk.dbpedia.org/resource/Bratislava> <http://www.w3.org/2000/01/rdf-schema#label> "Bratislava"@sk .
+<http://sk.dbpedia.org/resource/Weblog> <http://www.w3.org/2000/01/rdf-schema#label> "Weblog"@sk .
+<http://sk.dbpedia.org/resource/Internet> <http://www.w3.org/2000/01/rdf-schema#label> "Internet"@sk .
+<http://sk.dbpedia.org/resource/História> <http://www.w3.org/2000/01/rdf-schema#label> "História"@sk .
+<http://sk.dbpedia.org/resource/Egypt> <http://www.w3.org/2000/01/rdf-schema#label> "Egypt"@sk .
+<http://sk.dbpedia.org/resource/Turingov_test> <http://www.w3.org/2000/01/rdf-schema#label> "Turingov test"@sk .
+<http://sk.dbpedia.org/resource/Alan_Mathison_Turing> <http://www.w3.org/2000/01/rdf-schema#label> "Alan Mathison Turing"@sk .
+<http://sk.dbpedia.org/resource/Biológia> <http://www.w3.org/2000/01/rdf-schema#label> "Biológia"@sk .
+<http://sk.dbpedia.org/resource/Rómovia> <http://www.w3.org/2000/01/rdf-schema#label> "Rómovia"@sk .
+<http://sk.dbpedia.org/resource/George_Boole> <http://www.w3.org/2000/01/rdf-schema#label> "George Boole"@sk .
+<http://sk.dbpedia.org/resource/Padmasambhava> <http://www.w3.org/2000/01/rdf-schema#label> "Padmasambhava"@sk .
+<http://sk.dbpedia.org/resource/Tibet_(historické_územie)> <http://www.w3.org/2000/01/rdf-schema#label> "Tibet (historické územie)"@sk .
+<http://sk.dbpedia.org/resource/Tantrizmus> <http://www.w3.org/2000/01/rdf-schema#label> "Tantrizmus"@sk .
+<http://sk.dbpedia.org/resource/Tibetská_kniha_mŕtvych> <http://www.w3.org/2000/01/rdf-schema#label> "Tibetská kniha mŕtvych"@sk .
+<http://sk.dbpedia.org/resource/Willard_Van_Orman_Quine> <http://www.w3.org/2000/01/rdf-schema#label> "Willard Van Orman Quine"@sk .
+<http://sk.dbpedia.org/resource/Enzo_Paci> <http://www.w3.org/2000/01/rdf-schema#label> "Enzo Paci"@sk .
 # completed 2013-07-11T11:07:28Z

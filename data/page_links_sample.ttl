@@ -28,4 +28,13 @@
 <http://sk.dbpedia.org/resource/Hlavná_stránka> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Wmf:Zbieranie_príspevkov> .
 <http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/4._január> .
 <http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/1643> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Woolsthorpe-by-Colsterworth> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Lincolnshire_(grófstvo)> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Anglicko> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Londýn> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Anglicko> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Kráľovská_spoločnosť> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/4._január> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/1643> .
+<http://sk.dbpedia.org/resource/Isaac_Newton> <http://dbpedia.org/ontology/wikiPageWikiLink> <http://sk.dbpedia.org/resource/Woolsthorpe-by-Colsterworth> .
 # completed 2013-08-04T14:20:27Z

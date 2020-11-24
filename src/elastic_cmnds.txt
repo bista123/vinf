@@ -1,0 +1,43 @@
+
+curl -H "Content-Type: application/json" -XPOST "localhost:9200/wiki/_bulk?pretty&refresh" --data-binary "@elast.json"
+
+
+curl -X GET "localhost:9200/wiki/_search?pretty" -H "Content-Type: application/json" -d"
+{
+  \"query\": { \"match_phrase\": { \"Label\": \"Bratislava\" } }
+}
+"
+
+# Output:
+{
+  "took" : 133,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1,
+      "relation" : "eq"
+    },
+    "max_score" : 2.3340669,
+    "hits" : [
+      {
+        "_index" : "wiki",
+        "_type" : "_doc",
+        "_id" : "702",
+        "_score" : 2.3340669,
+        "_source" : {
+          "Links" : [ ],
+          "Label" : "Bratislava",
+          "name" : "Bratislava",
+          "Categories" : [ ],
+          "ID" : "702"
+        }
+      }
+    ]
+  }
+}
