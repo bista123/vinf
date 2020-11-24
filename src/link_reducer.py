@@ -6,7 +6,7 @@ import re
 
 pattern = None
 current_id = None
-current_values = ""
+current_values = "Linky: "
 
 for line in sys.stdin:
 
@@ -19,8 +19,8 @@ for line in sys.stdin:
             current_values = current_values + " " + str(pattern.group(2))
         else:
             if current_id is None:
-                current_values = "" + str(pattern.group(2))
+                current_values = "Linky: " + str(pattern.group(2))
             else:
                 print(str(current_id) + '\t' + current_values)
-                current_values = "" + str(pattern.group(2))
+                current_values = "Linky: " + str(pattern.group(2))
         current_id = pattern.group(1)

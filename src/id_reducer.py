@@ -13,8 +13,9 @@ for line in sys.stdin:
 
     pattern = re.match(r"^(.+)\t(.*)$", line)
 
-    if pattern.group(1) == current_id:
-        print(' ' + pattern.group(2))
-    else:
-        print(pattern.group(1) + '\t' + pattern.group(2))
-    current_id = pattern.group(1)
+    if pattern is not None:
+        if pattern.group(1) == current_id:
+            print(" " + pattern.group(2))
+        else:
+            print(pattern.group(1) + '\t' + "ID: " + pattern.group(2))
+        current_id = pattern.group(1)
