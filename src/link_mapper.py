@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding=utf-8
 """link_mapper.py"""
 
 import sys
@@ -13,4 +14,11 @@ for line in sys.stdin:
     pattern = re.match(r"^\<.*resource\/(.*)\> \<.*\> \<(.*)\> .", line)
 
     if pattern:
-        print(pattern.group(1) + '\t' + pattern.group(2))
+        if pattern.group(1).__contains__('Kategória:') or pattern.group(1).__contains__('Podkategória:') \
+                or pattern.group(1).__contains__('Šablóna:') or pattern.group(1).__contains__('Šablóny:') \
+                or pattern.group(1).__contains__('Súbor:') or pattern.group(1).__contains__('WP:'):
+            continue
+        else:
+            print(pattern.group(1) + '\t' + pattern.group(2))
+    else:
+        continue

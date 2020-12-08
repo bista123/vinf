@@ -24,3 +24,5 @@ for line in sys.stdin:
                 print(str(current_id) + '\t' + current_values)
                 current_values = "Kategorie: " + str(pattern.group(2))
         current_id = pattern.group(1)
+
+print(str(current_id) + '\t' + current_values)

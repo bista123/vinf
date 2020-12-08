@@ -8,15 +8,13 @@ import json
 
 class Page:
 
-    def __init__(self, name):
-        self.name = name
+    def __init__(self):
         self.ID = ""
         self.Label = ""
         self.Categories = []
         self.Links = []
 
     def save_file(self):
-
         y = json.dumps(self.__dict__, ensure_ascii=False)
         print(y)
 
@@ -44,7 +42,7 @@ if __name__ == '__main__':
                     obj.Links = pattern.group(2)[pattern.group(2).index(' ')+1:]
             else:
                 if current_id is None:
-                    obj = Page(pattern.group(1))
+                    obj = Page()
                     if "ID:" in pattern.group(2):
                         obj.ID = pattern.group(2)[pattern.group(2).index(' ')+1:]
                     if "Label:" in pattern.group(2):
@@ -55,7 +53,7 @@ if __name__ == '__main__':
                         obj.Links = pattern.group(2)[pattern.group(2).index(' ')+1:]
                 else:
                     obj.save_file()
-                    obj = Page(pattern.group(1))
+                    obj = Page()
                     if "ID:" in pattern.group(2):
                         obj.ID = pattern.group(2)[pattern.group(2).index(' ')+1:]
                     if "Label:" in pattern.group(2):
@@ -65,3 +63,5 @@ if __name__ == '__main__':
                     if "Linky:" in pattern.group(2):
                         obj.Links = pattern.group(2)[pattern.group(2).index(' ')+1:]
             current_id = pattern.group(1)
+
+obj.save_file()
