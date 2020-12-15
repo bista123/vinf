@@ -6,6 +6,7 @@ import re
 
 pattern = None
 
+# iterate through lines of input, parse line by tabulator and print line to mapper output
 for line in sys.stdin:
 
     line = line.strip()

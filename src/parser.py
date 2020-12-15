@@ -2,16 +2,17 @@
 import re
 import codecs
 import json
+from collections import OrderedDict
 
 
 class Page:
 
-    def __init__(self, name):
-        self.name = name
+    def __init__(self):
+        self.Links = []
+        self.Categories = []
         self.ID = ""
         self.Label = ""
-        self.Categories = []
-        self.Links = []
+
 
     def save_file(self):
         # filename = self.name + '.txt'
@@ -20,14 +21,14 @@ class Page:
         #     json.dump(self.__dict__, outfile)
         # y = y.encode().decode('utf8')
         # x = y.encode('utf8')
-        y = json.dumps(self.__dict__, ensure_ascii=False).encode('utf8')
-        print(y.decode())
+        y = json.dumps(self.__dict__, ensure_ascii=False)
+        print(y)
 
 
 # Function to parse page ids
 def parse_ids():
     ttl_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/page_ids_sk.ttl', 'r', encoding='utf-8')
-    csv_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_ids.csv', 'w', encoding='utf-8')
+    csv_file = codecs.open('/vinf/data/page_ids.out', 'w', encoding='utf-8')
     lines = ttl_file.readlines()
 
     for line in lines:
@@ -52,7 +53,7 @@ def parse_ids():
 # Function to parse labels
 def parse_labels():
     ttl_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/labels_sk.ttl', 'r', encoding='utf-8')
-    csv_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/labels.csv', 'w', encoding='utf-8')
+    csv_file = codecs.open('/vinf/data/labels.out', 'w', encoding='utf-8')
     lines = ttl_file.readlines()
 
     for line in lines:
@@ -101,7 +102,7 @@ def parse_categories():
         except:
             continue
 
-    csv_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/article_categories.csv',
+    csv_file = codecs.open('/vinf/data/article_categories.out',
                            'w',
                            encoding='utf-8')
 
@@ -140,7 +141,7 @@ def parse_links():
         except:
             continue
 
-    csv_file = codecs.open('D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_links.csv', 'w', encoding='utf-8')
+    csv_file = codecs.open('/vinf/data/page_links.out', 'w', encoding='utf-8')
 
     for label, link in links.items():
         tostr = ' '.join(map(str, link))
@@ -152,13 +153,17 @@ def parse_links():
 
 # Function to parse and merge together all previously created temporary csv files
 def merge_together():
-    files = ['page_ids.csv', 'labels.csv', 'article_categories.csv', 'page_links.csv']
+    # files = ['page_ids.out', 'labels.out', 'article_categories.out', 'page_links.out']
+    files = ['D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_ids.out',
+             'D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/labels.out',
+             'D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/article_categories.out',
+             'D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/page_links.out']
     labels = ['ID', 'Label', 'Kategorie', 'Linky']
     output = {}
 
     for file, label in zip(files, labels):
 
-        parse_file = codecs.open(f'D:/Jakub/FIIT/ING/2/VINF/vinf_project/vinf/data/{file}', 'r', encoding='utf-8')
+        parse_file = codecs.open(file, 'r', encoding='utf-8')
         lines = parse_file.readlines()
 
         for line in lines:
@@ -190,16 +195,16 @@ def merge_together():
     for upper_label, lower_label in output.items():
         # output_file.write(upper_label + ":" + "\n")
         name = upper_label
-        obj = Page(name)
+        obj = Page()
         for label, value in lower_label.items():
             if label == "ID":
-                obj.idd = value
+                obj.ID = value[0][value[0].index(' ')+1:]
             elif label == "Label":
-                obj.label = value
+                obj.Label = value
             elif label == "Kategorie":
-                obj.categories = value
+                obj.Categories = value
             elif label == "Linky":
-                obj.links = value
+                obj.Links = value
 
         obj.save_file()
 
@@ -210,8 +215,8 @@ if __name__ == '__main__':
     # parse_ids()
     # parse_labels()
     # parse_categories()
-    parse_links()
+    # parse_links()
     #
-    # merge_together()
+    merge_together()
 
     print("Parsing done!")
