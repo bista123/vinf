@@ -127,7 +127,7 @@ if __name__ == '__main__':
     json_data = open(fileName, encoding="utf8")
 
     # create statistics from output file, this should be commented out since it should be ran only once
-    # uncomment this to run stats again
+    # uncomment line bellow to run stats again
     # create_stats(json_data)
 
 
@@ -141,14 +141,15 @@ if __name__ == '__main__':
         raise ValueError("Connection failed")
 
     # index data with elasticsearch, this is commented out as it should be ran only once
-    # uncomment this to create index again
-    # for num in range(len(docs)):
-    #
-    #     try:
-    #         es.index(index='docs', id=num, body=docs[num], request_timeout=50)
-    #
-    #     except json.decoder.JSONDecodeError as err:
-    #         print("ERROR for num:", num, "-- JSONDecodeError:", err, "for doc:", docs[num])
+    ''' uncomment this part to create index again
+    for num in range(len(docs)):
+
+        try:
+            es.index(index='docs', id=num, body=docs[num], request_timeout=50)
+
+        except json.decoder.JSONDecodeError as err:
+            print("ERROR for num:", num, "-- JSONDecodeError:", err, "for doc:", docs[num])'''
+
 
     finder = ""
 
